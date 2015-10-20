@@ -1,0 +1,20 @@
+{
+  "name": "todo-app-node-angular",
+  "version": "1.0.0",
+  "description": "simple todo application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stannesi/todo-app-node-angular.git"
+  },
+  "author": "stan nesi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stannesi/todo-app-node-angular/issues"
+  },
+  "homepage": "https://github.com/stannesi/todo-app-node-angular#readme"
+}
