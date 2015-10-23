@@ -43,15 +43,16 @@
                         <div class="input-group">
                             
                             <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-                            <span class="input-group-addon" id="basic-addon1">+</span>
-                            
+                            <span class="input-group-addon" id="basic-addon1">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </span>
                             <input type="text"
                                    class="form-control input-lg"
                                    placeholder="Add a to-do"
                                    aria-describedby="basic-addon1"
                                    ng-model="formData.text">
                             
-                            <div class="input-group-btn">
+                            <div class="input-group-btn ">
                                 
                                 <!-- createToDo() WILL CREATE NEW TODOS -->
                                 <button 
@@ -67,14 +68,13 @@
         </div>
 
         <!-- TODO LIST -->
-        <div id="list-group" class="todo-list row">
+        <div id="list-group" class="todo-list row jumbotron">
             <div class="col-sm-8 col-sm-offset-2 todo-item" ng-repeat="todo in todos">
                 <!-- LOOP OVER THE TODOS IN $scope.todos -->
                 <button type="button" class="list-group-item">
                     <input type="checkbox" ng-click="deleteTodo(todo._id)">
                     {{ todo.text }}
                 </button>
-                
             </div>
         </div>
         
