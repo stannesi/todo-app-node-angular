@@ -3,4 +3,4 @@
 
 bootstrap CSS
 
-![alt tag] (https://github.com/stannesi/todo-app-node-angular/edit/master/ScreenShot-01.png) 
+![alt tag] (https://github.com/stannesi/todo-app-node-angular/master/ScreenShot-01.png) 
