@@ -43,7 +43,7 @@ var Todo = mongoose.model('Todo', todoSchema);
 mongoose.connect('mongodb://stannesi:victory@ds041924.mongolab.com:41924/todo-app-01');
 
 // set the static files location /public/img will be /img for users
-app.use(express.static(path.resolve(__dirname, '../client/public/')));
+app.use(express.static(path.resolve(__dirname, './client/public/')));
 
 // log every request to the console
 app.use(morgan('dev'));
@@ -81,7 +81,7 @@ app.get('/api/todos', function(req, res ) {
 // get application
 app.get('*', function(req, res) {
     // load the single view file (angular will handle the page changes on the front-end)
-    res.sendfile(path.resolve(__dirname, '../client/public/index.html'));
+    res.sendfile(path.resolve(__dirname, './client/public/index.html'));
 });
 
 // create todo and send back all todos aftyer creation

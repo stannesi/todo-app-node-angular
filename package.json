@@ -1,8 +1,16 @@
 {
   "name": "todo-app-node-angular",
   "version": "1.0.0",
-  "description": "simple todo application",
+  "description": "nodeJS angular todo app",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "morgan": "^1.6.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.12",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -12,13 +20,6 @@
     "url": "git+https://github.com/stannesi/todo-app-node-angular.git"
   },
   "author": "stan nesi",
-  "dependencies" : {
-    "express"    : "~4.7.2",
-    "mongoose"   : "~3.6.2",
-    "morgan"     : "~1.2.2",
-    "body-parser": "~1.5.2",
-    "method-override": "~2.1.2"
-  },   
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stannesi/todo-app-node-angular/issues"
