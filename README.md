@@ -4,7 +4,7 @@
 
 [Live Demo ⚡️](http://todo-app-01.herokuapp.com/)
 
-# Lauch App LOcally
+# Lauch App
 ```
 > node server.js
 ```
