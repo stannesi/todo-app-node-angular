@@ -2,8 +2,6 @@
 .: A Todo app - using angular, node, mondoDb and bootstrap CSS :.
 
 
-
-# Live App
 [Live Demo ⚡️](http://todo-app-01.herokuapp.com/)
 
 # Lauch App LOcally
