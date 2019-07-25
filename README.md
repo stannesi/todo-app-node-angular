@@ -1,10 +1,10 @@
-# todo-app-node-angular
-.: todo app - nodeJS and angular :.
+# Todo Node Angular App
+.: A Todo app - using angular, node, mondoDb and bootstrap CSS :.
 
-bootstrap CSS
+
 
 # Live App
-http://todo-app-01.herokuapp.com/
+[Live Demo ⚡️](http://todo-app-01.herokuapp.com/)
 
 # Lauch App LOcally
 ```
